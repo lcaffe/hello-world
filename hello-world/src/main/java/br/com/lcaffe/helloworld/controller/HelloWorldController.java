@@ -8,6 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RequestBody;
 import br.com.lcaffe.helloworld.model.Cliente;
+import org.springframework.http.HttpStatus;
 
 @RestController
 @RequestMapping(value="/hello", produces=MediaType.APPLICATION_JSON_VALUE)
